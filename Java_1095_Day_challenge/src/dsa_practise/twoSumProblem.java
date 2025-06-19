@@ -39,7 +39,7 @@ public class twoSumProblem {
             if (map.containsKey(complement)) {
                 return new int[] { complement, num };
             }
-            map.put(num, 1); // You can also store index if needed
+            map.put(num, 1); 
         }
         return null;
     }
